@@ -158,7 +158,10 @@ async function run (api) {
   ) {
     await validatePng(iconSource)
 
-    const opts = { ...settings.options[modeName] }
+    const opts = {
+      ...settings.options[modeName],
+      background_color: api.prompts.cordova.background_color
+    }
 
     if (modeName === 'cordova') {
       if (api.prompts.cordova.splashscreen_type !== 'generate') {
