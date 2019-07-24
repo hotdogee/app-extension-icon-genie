@@ -23,8 +23,14 @@ async function copyFiles (source, modeName, api) {
     case 'electron':
       await copySync(source, api.resolve.electron('/icons'))
       break;
+    case 'proton':
+      await copySync(source, api.resolve.proton('/icons'))
+      break;
     case 'cordova':
       await copySync(source, api.resolve.cordova('/res'))
+      break
+    case 'bex':
+      await copySync(source, api.resolve.bex('/icons'))
       break
   }
 }

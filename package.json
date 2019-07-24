@@ -1,6 +1,6 @@
 {
   "name": "@quasar/quasar-app-extension-icon-genie",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Quasar CLI Extension for Making All Your Icons",
   "license": "MIT",
   "author": "Daniel Thompson-Yvetot <35242872+nothingismagick@users.noreply.github.com>",
@@ -27,12 +27,11 @@
     "imagemin-zopfli": "^6.0.0",
     "is-png": "^1.1.0",
     "minimist": "^1.2.0",
-    "png2icons": "^1.0.1",
+    "png2icons": "^2.0.0",
     "potrace": "^2.1.2",
     "read-chunk": "^3.0.0",
     "sharp": "^0.22.1",
-    "svgo": "^1.2.2",
-    "to-ico": "^1.1.5"
+    "svgo": "^1.2.2"
   },
   "devDependencies": {
     "chai": "^4.1.2",
